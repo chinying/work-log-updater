@@ -90,3 +90,4 @@ ENV/
 
 # personal files
 config.json
+logs/**.*
