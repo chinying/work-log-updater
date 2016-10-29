@@ -90,4 +90,5 @@ ENV/
 
 # personal files
 config.json
-logs/**.*
+client_secret.json
+logs/*.*
