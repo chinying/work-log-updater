@@ -8,7 +8,4 @@ class Parse:
         f = open(filename)
         commits = f.read().split("\n")
         tasks = [" ".join(c.split(" ")[1:]) for c in commits if c]
-        p = []
-        for i, t in enumerate(tasks[:-1]):
-            p.append(str(i+1) + ". " + t)
         return tasks
