@@ -1,4 +1,9 @@
 # work-log-updater
+### Background
+I have this work log that I have to keep updated at my job (in point of writing this script), so I made a thing to do it for me.
+
+### Instructions
+
 1. `pip install -r requirements.txt`
 2. generate your own credentials file by following instructions on [this link](https://developers.google.com/sheets/quickstart/python)
 3. fill in **config_template.json** accordingly, change the filename to **config.json**
